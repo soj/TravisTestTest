@@ -39,4 +39,11 @@
     XCTAssertTrue(ttt < 0.000001,@"");
 }
 
+- (void)testTTime
+{
+    sDateTime *sdatetime = [[sDateTime alloc] initWithDateString:@"01-01-2013 00:30:00 +0000"];
+    double ttt = sdatetime.timeT - 1.130007415012553;
+    XCTAssertTrue(ttt < 0.00000000001,@"");
+}
+
 @end
