@@ -21,6 +21,8 @@
 		F77FF713185AE8D4000CFB4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F77FF6F5185AE8D4000CFB4E /* UIKit.framework */; };
 		F77FF71B185AE8D4000CFB4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F77FF719185AE8D4000CFB4E /* InfoPlist.strings */; };
 		F77FF71D185AE8D4000CFB4E /* TravisTestTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F77FF71C185AE8D4000CFB4E /* TravisTestTestTests.m */; };
+		F77FF728185B0514000CFB4E /* sDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = F77FF727185B0514000CFB4E /* sDateTime.m */; };
+		F77FF729185B0514000CFB4E /* sDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = F77FF727185B0514000CFB4E /* sDateTime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		F77FF718185AE8D4000CFB4E /* TravisTestTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TravisTestTestTests-Info.plist"; sourceTree = "<group>"; };
 		F77FF71A185AE8D4000CFB4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F77FF71C185AE8D4000CFB4E /* TravisTestTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravisTestTestTests.m; sourceTree = "<group>"; };
+		F77FF726185B0514000CFB4E /* sDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sDateTime.h; sourceTree = "<group>"; };
+		F77FF727185B0514000CFB4E /* sDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sDateTime.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 				F77FF703185AE8D4000CFB4E /* Main.storyboard */,
 				F77FF706185AE8D4000CFB4E /* ViewController.h */,
 				F77FF707185AE8D4000CFB4E /* ViewController.m */,
+				F77FF726185B0514000CFB4E /* sDateTime.h */,
+				F77FF727185B0514000CFB4E /* sDateTime.m */,
 				F77FF709185AE8D4000CFB4E /* Images.xcassets */,
 				F77FF6F8185AE8D4000CFB4E /* Supporting Files */,
 			);
@@ -251,6 +257,7 @@
 			files = (
 				F77FF708185AE8D4000CFB4E /* ViewController.m in Sources */,
 				F77FF702185AE8D4000CFB4E /* AppDelegate.m in Sources */,
+				F77FF728185B0514000CFB4E /* sDateTime.m in Sources */,
 				F77FF6FE185AE8D4000CFB4E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77FF729185B0514000CFB4E /* sDateTime.m in Sources */,
 				F77FF71D185AE8D4000CFB4E /* TravisTestTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "sDateTime.h"
 
 @interface TravisTestTestTests : XCTestCase
 
@@ -29,6 +30,13 @@
 - (void)testExample
 {
     XCTAssertNil(nil, @"Should be nil");
+}
+
+- (void)testJD
+{
+    sDateTime *sdatetime = [[sDateTime alloc] initWithDateString:@"01-01-2013 00:30:00 +0000"];
+    double ttt = sdatetime.julianDay - 2456293.520833333;
+    XCTAssertTrue(ttt < 0.000001,@"");
 }
 
 @end
